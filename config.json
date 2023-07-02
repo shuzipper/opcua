@@ -1,0 +1,18 @@
+
+
+  {
+    "ua_servers": [
+      "opc.tcp://10.27.12.20:4840"
+    ],
+    "node_ids": {
+      "HoistPos": "ns=6;s=::AsGlobalPV:gCrane.CurHoistPos"
+    },
+    "influxdb": {
+      "url": "http://172.17.0.2:8086",
+      "token": "wuaZZBGCh3yra5ZPsG7HM_B9D20wRhxRr9t4meeQCEkJBC_U-4pHG2za_pdL0y7kRWw7cV3VQ5WQLOHoAyumcA==",
+      "org": "ACCS",
+      "bucket": "my-bucket"
+    }
+  }
+  
+  
