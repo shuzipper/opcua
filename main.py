@@ -15,7 +15,7 @@ def read_data(ua_servers, node_ids, interval):
             data += ua_client.get_data()
         influxdb_client.write_data(data)
         time.sleep(interval)
-
+ 
 
 if __name__ == '__main__':
     config = Config('./test-accs-log/config.json')
